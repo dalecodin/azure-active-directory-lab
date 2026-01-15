@@ -18,8 +18,9 @@ An Azure Virtual Network (VNet) was created to enable private communication betw
 
 All virtual machines deployed in this lab were placed within this VNet to ensure consistent and reliable connectivity.
 
+<img width="1506" height="502" alt="Pasted image 20260114093410" src="https://github.com/user-attachments/assets/fb429166-1079-4dda-b457-3875c46df19f" />
 
-![[Pasted image 20260114093410.png]]
+
 
 ---
 
@@ -27,7 +28,8 @@ All virtual machines deployed in this lab were placed within this VNet to ensure
 
 A Windows Server virtual machine was deployed to serve as the Domain Controller. During creation, the virtual machine was connected to the custom Virtual Network in the Networking tab to ensure correct subnet placement and private IP assignment.
 
-![[Pasted image 20260114093537.png]]
+<img width="986" height="534" alt="Pasted image 20260114093537" src="https://github.com/user-attachments/assets/c776f614-06a1-40bf-8e3b-0552f8c4b565" />
+
 
 This system will host Active Directory Domain Services and DNS, making it a dependency for all domain operations.
 
@@ -47,9 +49,12 @@ Because the Domain Controller will function as the DNS server for the environmen
 
 This configuration was performed by accessing the virtual machine’s network interface settings in Azure and modifying the IP allocation method.
 
-![[Pasted image 20260114094045.png]]
+<img width="1484" height="274" alt="Pasted image 20260114094045" src="https://github.com/user-attachments/assets/b65df969-76f3-4c0d-8ea4-085280a368e5" />
 
-![[Pasted image 20260114094056.png]]
+
+<img width="555" height="851" alt="Pasted image 20260114094056" src="https://github.com/user-attachments/assets/224200cc-8760-4437-981b-637569e7da87" />
+
+
 
 ---
 
@@ -57,7 +62,8 @@ This configuration was performed by accessing the virtual machine’s network in
 
 After configuring the static IP address, the Domain Controller was accessed via Remote Desktop. Windows Defender Firewall was temporarily disabled for the Domain, Private, and Public profiles.
 
-![[Pasted image 20260114094421.png]]
+<img width="395" height="454" alt="Pasted image 20260114094421" src="https://github.com/user-attachments/assets/0ddacd8f-9504-4d6f-9c78-46ab03f12ed6" />
+
 
 This was done to prevent Active Directory and DNS traffic from being blocked during the lab setup. In real environments, firewall rules would be explicitly configured rather than disabling the firewall entirely.
 
@@ -67,7 +73,8 @@ This was done to prevent Active Directory and DNS traffic from being blocked dur
 
 The client virtual machine was configured to use the Domain Controller as its DNS server. This was done by modifying the client’s network interface DNS settings, disabling inheritance from the Virtual Network, and specifying the Domain Controller’s private IP address.
 
-![[Pasted image 20260114094502.png]]
+<img width="1174" height="336" alt="Pasted image 20260114094502" src="https://github.com/user-attachments/assets/3ed52aab-57cb-404b-8f73-e892f450c3d2" />
+
 
 This ensures all domain name resolution and authentication requests are directed to the Domain Controller.
 
