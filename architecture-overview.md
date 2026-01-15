@@ -55,5 +55,6 @@ A static private IP address is assigned to the Domain Controller to ensure DNS r
 
 ## Architecture Diagram
 
-![[Pasted image 20260114174013.png]]
+<img width="1017" height="895" alt="Pasted image 20260114174013" src="https://github.com/user-attachments/assets/0a4ef4dc-ca67-45c0-9472-084855a7d2b0" />
+
 
