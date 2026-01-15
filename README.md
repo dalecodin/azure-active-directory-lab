@@ -23,7 +23,7 @@ All systems communicate using private IP addresses within the same Azure VNet.
 
 An overview of the environment, including DNS and authentication flow, is documented here:
 
-- `architecture-overview.md`
+- [`architecture-overview`](https://github.com/dalecodin/azure-active-directory-lab/blob/main/architecture-overview.md) 
 
 This file explains how the Domain Controller and client interact and includes a network diagram.
 
@@ -32,7 +32,7 @@ This file explains how the Domain Controller and client interact and includes a 
 ## Lab Phases
 
 ### 1. Azure Infrastructure & VM Setup
-- `azure-vm-setup.md`
+- [`azure-vm-setup`](https://github.com/dalecodin/azure-active-directory-lab/blob/main/azure-vm-setup.md)
 
 Covers:
 - Resource Group creation
@@ -44,7 +44,7 @@ Covers:
 ---
 
 ### 2. Active Directory Setup
-- `active-directory-setup.md`
+- [`active-directory-setup`](https://github.com/dalecodin/azure-active-directory-lab/blob/main/active-directory-setup.md)
 
 Covers:
 - Installation of Active Directory Domain Services
@@ -56,7 +56,7 @@ Covers:
 ---
 
 ### 3. Client Domain Join
-- `joining-clientvm-to-domain.md`
+- [`joining-clientvm-to-domain`](https://github.com/dalecodin/azure-active-directory-lab/blob/main/joining-clientvm-to-domain.md)
 
 Covers:
 - Joining the Windows 10 client to the domain
