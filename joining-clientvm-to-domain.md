@@ -12,7 +12,8 @@ The client system settings were accessed, and the **advanced system configuratio
 
 The Active Directory domain name (`mydomain.com`) was entered to start the domain join process.
 
-![[Pasted image 20260114151415.png]]
+<img width="1593" height="965" alt="Pasted image 20260114151415" src="https://github.com/user-attachments/assets/62b0505d-500b-4b5b-86d4-8b2cf4d2eb78" />
+
 
 ---
 
@@ -20,7 +21,8 @@ The Active Directory domain name (`mydomain.com`) was entered to start the domai
 
 During the domain join process, log-in of a domain account with administrative privileges were required. A domain administrator account was provided to authorize the client’s addition to the domain.
 
-![[Pasted image 20260114151503.png]]
+<img width="456" height="300" alt="Pasted image 20260114151503" src="https://github.com/user-attachments/assets/3f547083-8565-4471-b13b-299699f48670" />
+
 
 ---
 
